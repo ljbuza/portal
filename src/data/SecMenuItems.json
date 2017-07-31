@@ -1,0 +1,70 @@
+{
+  "mapMenu": [
+    {
+      "name": "location",
+      "to": "/databrowser/map"
+    },
+    {
+      "name": "network",
+      "to": "/databrowser/map-network"
+    }
+  ],
+  "networkMenu": [
+    {
+      "name": "CMTS",
+      "to": "/databrowser/network-cmts"
+    },
+    {
+      "name": "MAC domain",
+      "to": "/databrowser/network-mac"
+    },
+    {
+      "name": "fiber node",
+      "to": "/databrowser/network-fiber"
+    },
+    {
+      "name": "CMTS interface",
+      "to": "/databrowser/network-cface"
+    },
+    {
+      "name": "modem",
+      "to": "/databrowser/network-modem"
+    },
+    {
+      "name": "modem interface",
+      "to": "/databrowser/network-mface"
+    }
+  ],
+  "equipmentMenu": [
+    {
+      "name": "CMTS",
+      "to": "/databrowser/equip-cmts"
+    },
+    {
+      "name": "modem",
+      "to": "/databrowser/equip-modem"
+    },
+    {
+      "name": "MTA",
+      "to": "/databrowser/equip-mta"
+    }
+  ],
+  "subscriberMenu": [
+    {
+      "name": "subscribers",
+      "to": "/databrowser/subscribers"
+    }
+  ],
+  "orderMenu": [
+    {
+      "name": "orders",
+      "to": "/databrowser/orders"
+    }
+  ],
+  "alertsMenu": [
+    {
+      "name": "alerts",
+      "to": "/databrowser/alerts"
+    }
+  ]
+}

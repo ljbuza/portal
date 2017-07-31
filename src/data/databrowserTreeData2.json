@@ -1,0 +1,331 @@
+{
+  "cmts": [
+    {
+      "name": "cmts-1",
+      "ip address": "122.54.184.5",
+      "model": "Cisco",
+      "software version": "2.0",
+      "cpu": "24",
+      "memory": "34",
+      "temp": "124",
+      "uptime": "1750"
+    },
+    {
+      "name": "cmts-2",
+      "ip address": "22.154.14.30",
+      "model": "Cisco",
+      "software version": "2.0",
+      "cpu": "24",
+      "memory": "34",
+      "temp": "124",
+      "uptime": "1750"
+    }
+  ],
+  "mac domains": [
+    {
+      "name": "MD-1A",
+      "parents": [
+        "CMTS-1"
+      ],
+      "upstream": 16,
+      "downstream": 8
+    },
+    {
+      "name": "MD-1B",
+      "parents": [
+        "CMTS-1"
+      ],
+      "upstream": 16,
+      "downstream": 8
+    },
+    {
+      "name": "MD-2A",
+      "parents": [
+        "CMTS-2"
+      ],
+      "upstream": 16,
+      "downstream": 8,
+      "interfaces": [
+      ]
+    },
+    {
+      "name": "MD-2B",
+      "parents": [
+        "CMTS-2"
+      ],
+      "upstream": 16,
+      "downstream": 8
+    }
+  ],
+  "md interfaces": [
+    {
+      "name": "01",
+      "parents": [
+        "CMTS-1",
+        "MD-1A"
+      ],
+      "frequency": "5Mhz",
+      "direction": "upstream",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "02",
+      "parents": [
+        "CMTS-1",
+        "MD-1A"
+      ],
+      "frequency": "5Mhz",
+      "direction": "upstream",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "03",
+      "parents": [
+        "CMTS-1",
+        "MD-1A"
+      ],
+      "frequency": "5Mhz",
+      "direction": "downstream",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "01",
+      "parents": [
+        "CMTS-1",
+        "MD-1B"
+      ],
+      "frequency": "5Mhz",
+      "direction": "upstream",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "03",
+      "parents": [
+        "CMTS-1",
+        "MD-1B"
+      ],
+      "frequency": "5Mhz",
+      "direction": "upstream",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "03",
+      "parents": [
+        "CMTS-1",
+        "MD-1B"
+      ],
+      "frequency": "5Mhz",
+      "direction": "downstream",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "01",
+      "parents": [
+        "CMTS-2",
+        "MD-2A"
+      ],
+      "frequency": "5Mhz",
+      "direction": "upstream",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "02",
+      "parents": [
+        "CMTS-2",
+        "MD-2A"
+      ],
+      "frequency": "5Mhz",
+      "direction": "upstream",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "03",
+      "parents": [
+        "CMTS-2",
+        "MD-2A"
+      ],
+      "frequency": "5Mhz",
+      "direction": "downstream",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "01",
+      "parents": [
+        "cmts-2",
+        "MD-2B"
+      ],
+      "frequency": "5Mhz",
+      "direction": "upstream",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "02",
+      "parents": [
+        "CMTS-2",
+        "MD-2B"
+      ],
+      "frequency": "5Mhz",
+      "direction": "upstream",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "03",
+      "parents": [
+        "CMTS-2",
+        "MD-2B"
+      ],
+      "frequency": "5Mhz",
+      "direction": "downstream",
+      "description": "UBR2-120"
+    }
+  ],
+  "fiber nodes": [
+    {
+      "name": "FN-1A1",
+      "parents": [
+        "CMTS-1",
+        "MD-1A"
+      ],
+      "modems online": 134,
+      "modems offline": 2
+    },
+    {
+      "name": "FN-1A2",
+      "parents": [
+        "CMTS-1",
+        "MD-1A"
+      ],
+      "modems online": 3374,
+      "modems offline": 45
+    },
+    {
+      "name": "FN-1B1",
+      "parents": [
+        "CMTS-1",
+        "MD-1B"
+      ],
+      "modems online": 134,
+      "modems offline": 2
+    },
+    {
+      "name": "FN-1B2",
+      "parents": [
+        "CMTS-1",
+        "MD-1B"
+      ],
+      "modems online": 3374,
+      "modems offline": 45
+    },
+    {
+      "name": "FN-2A1",
+      "parents": [
+        "CMTS-2",
+        "MD-2A"
+      ],
+      "modems online": 134,
+      "modems offline": 2
+    },
+    {
+      "name": "FN-2A2",
+      "parents": [
+        "CMTS-2",
+        "MD-2A"
+      ],
+      "modems online": 3374,
+      "modems offline": 45
+    },
+    {
+      "name": "FN-2B1",
+      "parents": [
+        "CMTS-2",
+        "MD-2B"
+      ],
+      "modems online": 134,
+      "modems offline": 2
+    },
+    {
+      "name": "FN-2B2",
+      "parents": [
+        "CMTS-2",
+        "MD-2B"
+      ],
+      "modems online": 3374,
+      "modems offline": 45
+    }
+  ],
+  "fn interfaces": [
+    {
+      "name": "01",
+      "parents": ["CMTS-1", "MD-1A", "FN-1A1"],
+      "frequency": "5Mhz",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "01",
+      "parents": ["CMTS-1", "MD-1A", "FN-1A2"],
+      "frequency": "5Mhz",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "01",
+      "parents": ["CMTS-1", "MD-1B", "FN-1B1"],
+      "frequency": "5Mhz",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "02",
+      "parents": ["CMTS-1", "MD-1A", "FN-1A1"],
+      "frequency": "5Mhz",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "02",
+      "parents": ["CMTS-1", "MD-1A", "FN-1A2"],
+      "frequency": "5Mhz",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "02",
+      "parents": ["CMTS-1", "MD-1B", "FN-1B1"],
+      "frequency": "5Mhz",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "01",
+      "parents": ["CMTS-1", "MD-2A", "FN-2A1"],
+      "frequency": "5Mhz",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "02",
+      "parents": ["CMTS-1", "MD-2A", "FN-2A2"],
+      "frequency": "5Mhz",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "01",
+      "parents": ["FN-2A2"],
+      "frequency": "5Mhz",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "02",
+      "parents": ["fn-2A2"],
+      "frequency": "5Mhz",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "01",
+      "parents": ["fn-2B1"],
+      "frequency": "5Mhz",
+      "description": "UBR2-120"
+    },
+    {
+      "name": "02",
+      "parents": ["fn-2B1"],
+      "frequency": "5Mhz",
+      "description": "UBR2-120"
+    }
+  ]
+
+}

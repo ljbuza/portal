@@ -1,0 +1,3 @@
+[submodule "src/tds-js-auth"]
+    path = src/tds-js-auth
+    url = git@git.ent.tds.net:na.js/tds-js-auth.git

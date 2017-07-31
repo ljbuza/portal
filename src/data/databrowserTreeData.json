@@ -1,0 +1,230 @@
+{
+  "cmts": [
+    {
+      "name": "cmts-1",
+      "ip address": "122.54.184.5",
+      "model": "Cisco",
+      "software version": "2.0",
+      "cpu": "24",
+      "memory": "34",
+      "temp": "124",
+      "uptime": "1750",
+      "mac domains": [
+        {
+          "name": "md-1A",
+          "upstream": 16,
+          "downstream": 8,
+          "interfaces": [
+            {
+              "name": "01",
+              "frequency": "5Mhz",
+              "direction": "upstream",
+              "description": "UBR2-120"
+            },
+            {
+              "name": "02",
+              "frequency": "5Mhz",
+              "direction": "upstream",
+              "description": "UBR2-120"
+            },
+            {
+              "name": "03",
+              "frequency": "5Mhz",
+              "direction": "downstream",
+              "description": "UBR2-120"
+            }
+          ],
+          "fiber nodes": [
+            {
+              "name": "fn-1A1",
+              "modems online": 134,
+              "modems offline": 2,
+              "interfaces": [
+                {
+                  "frequency": "5Mhz",
+                  "description": "UBR2-120"
+                },
+                {
+                  "frequency": "5Mhz",
+                  "description": "UBR2-120"
+                }
+              ]
+            },
+            {
+              "name": "fn-1A2",
+              "modems online": 3374,
+              "modems offline": 45,
+              "interfaces": [
+                {
+                  "frequency": "5Mhz",
+                  "description": "UBR2-120"
+                },
+                {
+                  "frequency": "5Mhz",
+                  "description": "UBR2-120"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "md-1B",
+          "upstream": 16,
+          "downstream": 8,
+          "interfaces": [
+            {
+              "frequency": "5Mhz",
+              "direction": "upstream",
+              "description": "UBR2-120"
+            },
+            {
+              "frequency": "5Mhz",
+              "direction": "upstream",
+              "description": "UBR2-120"
+            },
+            {
+              "frequency": "5Mhz",
+              "direction": "downstream",
+              "description": "UBR2-120"
+            }
+          ],
+          "fiber nodes": [
+            {
+              "name": "fn-1B1",
+              "modems online": 134,
+              "modems offline": 2,
+              "interfaces": [
+                {
+                  "frequency": "5Mhz",
+                  "description": "UBR2-120"
+                },
+                {
+                  "frequency": "5Mhz",
+                  "description": "UBR2-120"
+                }
+              ]
+            },
+            {
+              "name": "fn-1B2",
+              "modems online": 3374,
+              "modems offline": 45
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cmts-2",
+      "ip address": "22.154.14.30",
+      "model": "Cisco",
+      "software version": "2.0",
+      "cpu": "24",
+      "memory": "34",
+      "temp": "124",
+      "uptime": "1750",
+      "mac domains": [
+        {
+          "name": "md-2A",
+          "upstream": 16,
+          "downstream": 8,
+          "interfaces": [
+            {
+              "name": "01",
+              "frequency": "5Mhz",
+              "direction": "upstream",
+              "description": "UBR2-120"
+            },
+            {
+              "name": "02",
+              "frequency": "5Mhz",
+              "direction": "upstream",
+              "description": "UBR2-120"
+            },
+            {
+              "name": "03",
+              "frequency": "5Mhz",
+              "direction": "downstream",
+              "description": "UBR2-120"
+            }
+          ],
+          "fiber nodes": [
+            {
+              "name": "fn-2A1",
+              "modems online": 134,
+              "modems offline": 2,
+              "interfaces": [
+                {
+                  "frequency": "5Mhz",
+                  "description": "UBR2-120"
+                },
+                {
+                  "frequency": "5Mhz",
+                  "description": "UBR2-120"
+                }
+              ]
+            },
+            {
+              "name": "fn-2A2",
+              "modems online": 3374,
+              "modems offline": 45,
+              "interfaces": [
+                {
+                  "frequency": "5Mhz",
+                  "description": "UBR2-120"
+                },
+                {
+                  "frequency": "5Mhz",
+                  "description": "UBR2-120"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "md-2B",
+          "upstream": 16,
+          "downstream": 8,
+          "interfaces": [
+            {
+              "frequency": "5Mhz",
+              "direction": "upstream",
+              "description": "UBR2-120"
+            },
+            {
+              "frequency": "5Mhz",
+              "direction": "upstream",
+              "description": "UBR2-120"
+            },
+            {
+              "frequency": "5Mhz",
+              "direction": "downstream",
+              "description": "UBR2-120"
+            }
+          ],
+          "fiber nodes": [
+            {
+              "name": "fn-2B1",
+              "modems online": 134,
+              "modems offline": 2,
+              "interfaces": [
+                {
+                  "frequency": "5Mhz",
+                  "description": "UBR2-120"
+                },
+                {
+                  "frequency": "5Mhz",
+                  "description": "UBR2-120"
+                }
+              ]
+            },
+            {
+              "name": "fn-2B2",
+              "modems online": 3374,
+              "modems offline": 45
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

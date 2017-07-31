@@ -1,0 +1,518 @@
+{
+  "networkCmts": [
+    {
+      "Name": "CMTS-1",
+      "IP Address": "12.32.54.568",
+      "Model": "Alcatel",
+      "Software Version": "2.0",
+      "CPU": "80%",
+      "Memory": "70%",
+      "Temp": "50",
+      "Uptime": "8 hours"
+    },
+    {
+      "Name": "CMTS-2",
+      "IP Address": "12.32.54.568",
+      "Model": "Cisco",
+      "Software Version": "2.1",
+      "CPU": "70%",
+      "Memory": "70%",
+      "Temp": "60",
+      "Uptime": "18 hours"
+    },
+    {
+      "Name": "CMTS-3",
+      "IP Address": "120.72.4.568",
+      "Model": "Alcatel",
+      "Software Version": "2.1",
+      "CPU": "70%",
+      "Memory": "70%",
+      "Temp": "60",
+      "Uptime": "143 hours"
+    },
+    {
+      "Name": "CMTS-4",
+      "IP Address": "12.32.54.8",
+      "Model": "Alcatel",
+      "Software Version": "2.0",
+      "CPU": "70%",
+      "Memory": "70%",
+      "Temp": "60",
+      "Uptime": "27 hours"
+    }
+  ],
+  "networkCface": [
+    {
+      "US/DS": "Upstream",
+      "Name": "Interface-1",
+      "CMTS": "CMTS-1",
+      "SNR": "10",
+      "Micro-Reflections": "2",
+      "% Uncorrected": "5"
+    },
+    {
+      "US/DS": "Upstream",
+      "Name": "Interface-2",
+      "CMTS": "CMTS-1",
+      "SNR": "10",
+      "Micro-Reflections": "2",
+      "% Uncorrected": "5"
+    },
+    {
+      "US/DS": "Downstream",
+      "Name": "Interface-1",
+      "CMTS": "CMTS-1",
+      "SNR": "10",
+      "Micro-Reflections": "2",
+      "% Uncorrected": "5"
+    },
+    {
+      "US/DS": "Upstream",
+      "Name": "Interface-3",
+      "CMTS": "CMTS-1",
+      "SNR": "5",
+      "Micro-Reflections": "1",
+      "% Uncorrected": "22"
+    },
+    {
+      "US/DS": "Downstream",
+      "Name": "Interface-2",
+      "CMTS": "CMTS-2",
+      "SNR": "8",
+      "Micro-Reflections": "2",
+      "% Uncorrected": "2"
+    }
+  ],
+  "networkMac": [
+    {
+      "Name": "MD-1",
+      "CMTS": "CMTS-1",
+      "Alias": "Alcatel",
+      "Fiber": "16",
+      "Modems Online": "1004",
+      "Modems Offline": "26",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "MD-2",
+      "CMTS": "CMTS-1",
+      "Alias": "Alcatel",
+      "Fiber": "16",
+      "Modems Online": "3114",
+      "Modems Offline": "246",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "MD-3",
+      "CMTS": "CMTS-1",
+      "Alias": "Alcatel",
+      "Fiber": "xxx",
+      "Modems Online": "10324",
+      "Modems Offline": "6",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "MD-4",
+      "CMTS": "CMTS-2",
+      "Alias": "Alcatel",
+      "Fiber": "16",
+      "Modems Online": "1004",
+      "Modems Offline": "26",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "MD-5",
+      "CMTS": "CMTS-2",
+      "Alias": "Alcatel",
+      "Fiber": "16",
+      "Modems Online": "11026",
+      "Modems Offline": "930",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "MD-6",
+      "CMTS": "CMTS-2",
+      "Alias": "Alcatel",
+      "Fiber": "16",
+      "Modems Online": "1004",
+      "Modems Offline": "26",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "MD-7",
+      "CMTS": "CMTS-3",
+      "Alias": "Alcatel",
+      "Fiber": "32",
+      "Modems Online": "1004",
+      "Modems Offline": "26",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "MD-8",
+      "CMTS": "CMTS-2",
+      "Alias": "Alcatel",
+      "Fiber": "32",
+      "Modems Online": "1004",
+      "Modems Offline": "26",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    }
+  ],
+  "networkFiber": [
+    {
+      "Name": "Fiber-1",
+      "MAC Domain": "MD-1",
+      "CMTS": "CMTS-2",
+      "Alias": "Alcatel",
+      "Modems Online": "1004",
+      "Modems Offline": "26",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "Fiber-2",
+      "MAC Domain": "MD-1",
+      "CMTS": "CMTS-1",
+      "Alias": "Alcatel",
+      "Modems Online": "4204",
+      "Modems Offline": "126",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "Fiber-3",
+      "MAC Domain": "MD-1",
+      "CMTS": "CMTS-1",
+      "Alias": "Alcatel",
+      "Modems Online": "124038",
+      "Modems Offline": "2346",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "Fiber-4",
+      "MAC Domain": "MD-1",
+      "CMTS": "CMTS-2",
+      "Alias": "Alcatel",
+      "Modems Online": "59161",
+      "Modems Offline": "873",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "Fiber-5",
+      "MAC Domain": "MD-2",
+      "CMTS": "CMTS-2",
+      "Alias": "Alcatel",
+      "Modems Online": "4237",
+      "Modems Offline": "5522",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "Fiber-6",
+      "MAC Domain": "MD-1",
+      "CMTS": "CMTS-1",
+      "Alias": "Alcatel",
+      "Modems Online": "8871",
+      "Modems Offline": "788",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    }
+  ],
+  "networkModem": [
+    {
+      "Name": "Modem-1",
+      "Fiber Node": "Fiber-6",
+      "MAC Domain": "MD-1",
+      "CMTS": "CMTS-1",
+      "Status": "Online",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "Modem-2",
+      "Fiber Node": "Fiber-2",
+      "MAC Domain": "MD-1",
+      "CMTS": "CMTS-2",
+      "Status": "Online",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "Modem-3",
+      "Fiber Node": "Fiber-3",
+      "MAC Domain": "MD-1",
+      "CMTS": "CMTS-3",
+      "Status": "Online",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    },
+    {
+      "Name": "Modem-4",
+      "Fiber Node": "Fiber-2",
+      "MAC Domain": "MD-1",
+      "CMTS": "CMTS-1",
+      "Status": "Offline",
+      "Upstream Interfaces": "16",
+      "Downstream Interfaces": "3"
+    }
+  ],
+  "networkMface": [
+    {
+      "US/DS": "Upstream",
+      "Name": "Interface-2",
+      "Modem": "Modem-1",
+      "SNR": "12",
+      "Down Power": "12",
+      "TX Power": "5",
+      "% Uncorrected": "3"
+    },
+    {
+      "US/DS": "Upstream",
+      "Name": "Interface-2",
+      "Modem": "Modem-1",
+      "SNR": "18",
+      "Down Power": "2",
+      "TX Power": "2",
+      "% Uncorrected": "30"
+    },
+    {
+      "US/DS": "Downstream",
+      "Name": "Interface-1",
+      "Modem": "Modem-1",
+      "SNR": "10",
+      "Down Power": "18",
+      "TX Power": "7",
+      "% Uncorrected": "6"
+    },
+    {
+      "US/DS": "Upstream",
+      "Name": "Interface-3",
+      "Modem": "Modem-2",
+      "SNR": "5",
+      "Down Power": "15",
+      "TX Power": "9",
+      "% Uncorrected": "1"
+    },
+    {
+      "US/DS": "Downstream",
+      "Name": "Interface-2",
+      "Modem": "Modem-1",
+      "SNR": "10",
+      "Down Power": "12",
+      "TX Power": "5",
+      "% Uncorrected": "3"
+    },
+    {
+      "US/DS": "Upstream",
+      "Name": "Interface-4",
+      "Modem": "Modem-3",
+      "SNR": "14",
+      "Down Power": "11",
+      "TX Power": "9",
+      "% Uncorrected": "4"
+    },
+    {
+      "US/DS": "Upstream",
+      "Name": "Interface-6",
+      "Modem": "Modem-3",
+      "SNR": "18",
+      "Down Power": "13",
+      "TX Power": "2",
+      "% Uncorrected": "1"
+    }
+  ],
+  "equipCmts": [
+    {
+      "Name": "CMTS-1",
+      "IP Address": "12.32.54.568",
+      "Model": "Alcatel",
+      "Software Version": "2.0",
+      "CPU": "80%",
+      "Memory": "70%",
+      "Temp": "50",
+      "Uptime": "8 hours"
+    },
+    {
+      "Name": "CMTS-2",
+      "IP Address": "12.32.54.568",
+      "Model": "Alcatel",
+      "Software Version": "2.0",
+      "CPU": "70%",
+      "Memory": "70%",
+      "Temp": "60",
+      "Uptime": "18 hours"
+    },
+    {
+      "Name": "CMTS-3",
+      "IP Address": "120.72.4.568",
+      "Model": "Alcatel",
+      "Software Version": "2.0",
+      "CPU": "70%",
+      "Memory": "70%",
+      "Temp": "60",
+      "Uptime": "143 hours"
+    },
+    {
+      "Name": "CMTS-4",
+      "IP Address": "12.32.54.8",
+      "Model": "Alcatel",
+      "Software Version": "2.0",
+      "CPU": "70%",
+      "Memory": "70%",
+      "Temp": "60",
+      "Uptime": "27 hours"
+    }
+  ],
+  "equipModem": [
+    {
+      "Name": "Modem-1",
+      "MAC": "MAC-1",
+      "Model": "Surfboard",
+      "Vendor": "Arris",
+      "Software Version": "2.0",
+      "IP Address": "12.32.54.568",
+      "Configuration": "xyz"
+    },
+    {
+      "Name": "Modem-2",
+      "MAC": "MAC-1",
+      "Model": "Surfboard",
+      "Vendor": "Arris",
+      "Software Version": "2.0",
+      "IP Address": "12.22.154.68",
+      "Configuration": "xyz"
+    },
+    {
+      "Name": "Modem-3",
+      "MAC": "MAC-1",
+      "Model": "Nighthawk",
+      "Vendor": "Netgear",
+      "Software Version": "2.0",
+      "IP Address": "126.32.54.8",
+      "Configuration": "xyz"
+    },
+    {
+      "Name": "Modem-4",
+      "MAC": "MAC-1",
+      "Model": "AC1200",
+      "Vendor": "Netgear",
+      "Software Version": "1.0",
+      "IP Address": "12.32.54.568",
+      "Configuration": "xyz"
+    },
+    {
+      "Name": "Modem-5",
+      "MAC": "MAC-1",
+      "Model": "SB6183",
+      "Vendor": "Arris",
+      "Software Version": "1.2",
+      "IP Address": "32.132.54.5",
+      "Configuration": "xyz"
+    }
+  ],
+  "equipMta": [
+    {
+      "Name": "MTA-1",
+      "IP Address": "126.32.54.8",
+      "Model": "Alcatel",
+      "Software Version": "2.4",
+      "CPU": "80%",
+      "Memory": "70%",
+      "Temp": "50",
+      "Uptime": "8 hours"
+    },
+    {
+      "Name": "MTA-2",
+      "IP Address": "126.32.54.8",
+      "Model": "Motorola",
+      "Software Version": "2.4",
+      "CPU": "60%",
+      "Memory": "20%",
+      "Temp": "30",
+      "Uptime": "2 hours"
+    },
+    {
+      "Name": "MTA-3",
+      "IP Address": "26.32.154.1",
+      "Model": "Motorola",
+      "Software Version": "2.4",
+      "CPU": "60%",
+      "Memory": "20%",
+      "Temp": "30",
+      "Uptime": "203 hours"
+    }
+  ],
+  "orders": [
+    {
+      "BxE Order": "123",
+      "BSS Order": "ABC",
+      "Order Status": "In Progress",
+      "Provisioned?": "Yes",
+      "Created": "12 Dec 2017",
+      "Modified": "12 Dec 2017"
+    },
+    {
+      "BxE Order": "234",
+      "BSS Order": "BCD",
+      "Order Status": "Complete",
+      "Provisioned?": "Yes",
+      "Created": "1 May 2017",
+      "Modified": "2 May 2017"
+    },
+    {
+      "BxE Order": "345",
+      "BSS Order": "CDE",
+      "Order Status": "Problem",
+      "Provisioned?": "Yes",
+      "Created": "14 May 2017",
+      "Modified": "22 May 2017"
+    },
+    {
+      "BxE Order": "456",
+      "BSS Order": "DEF",
+      "Order Status": "In Progress",
+      "Provisioned?": "Yes",
+      "Created": "12 Dec 2017",
+      "Modified": "12 Dec 2017"
+    }
+  ],
+  "alerts": [
+    {
+      "Status": "Red",
+      "Equipment": "CMTS-2",
+      "Last Updated": "10 minutes ago",
+      "Field": "Port Capacity",
+      "Value": "89%"
+    },
+    {
+      "Status": "Yellow",
+      "Equipment": "CMTS-1",
+      "Last Updated": "4 minutes ago",
+      "Field": "Port Capacity",
+      "Value": "89%"
+    },
+    {
+      "Status": "Red",
+      "Equipment": "CMTS-3",
+      "Last Updated": "1 hour ago",
+      "Field": "Port Capacity",
+      "Value": "89%"
+    },
+    {
+      "Status": "Red",
+      "Equipment": "CMTS-5",
+      "Last Updated": "1 hour ago",
+      "Field": "Port Capacity",
+      "Value": "89%"
+    }
+  ]
+}

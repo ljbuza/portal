@@ -1,0 +1,49 @@
+.tds-blue {
+    background-color: #f2f5f6;
+}
+
+#body {
+    background-color: #FAFAFA;
+}
+
+.scrolling {
+ overflow-x: scroll;
+}
+
+body {
+         /*background-color: lightsteelblue;*/
+    background-color: #FAFAFA;
+}
+
+#dashboard {
+    background-color: #f2f5f6;
+    /*background-color: #eaf2f8;*/
+}
+
+#top-menu-label {
+    background-color: #e8e8e8;
+}
+
+#root {
+         /*background-color: lightsteelblue;*/
+    background-color: #FAFAFA;
+}
+
+th span {
+    float: right;
+}
+#header{
+    background-color: #FAFAFA;
+    margin-top: 80px;
+    min-height: 100px;
+}
+/*.ui.card>.content:nth-child(1) {
+  background-color: #E8E8E8;
+}*/
+
+/*0C9FD0 tds alt blue */
+/*EDEDF2*/
+#main_body {
+    margin-top: 15px;
+    background-color: #FAFAFA;
+}
